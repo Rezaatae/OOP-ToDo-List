@@ -1,0 +1,19 @@
+Manual tests conducted by Beckett on 21 Oct:
+
+1. Entered Project titled "Sample" with Description "Test". No parent selected. Accuracy high.
+I expected this to work and display the node on the tree, which it did.
+
+2. Entered Task titles "Test2" with Desc "2". Parent was Sample. Accuracy high.
+I expected this to work and display the node on the tree under Sample, which it did.
+
+3. Entered Due By of 27 Oct for Test 2, 9:00, Accuracy high, Importance 50.
+I expected this to work and display the info under Test 2, which it did.
+
+4. I created a new task under Sample and attempted to add a due by date with null importance.
+I expected this to fail, which it did.
+
+5. I attempted to add a second project to the tree, titled "Second".
+I expected this to work and display the node on the tree, which it did.
+
+6. I attempted to add a third project, also named "Second".
+I expected this to fail, which it did.
